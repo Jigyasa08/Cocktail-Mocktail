@@ -9,5 +9,5 @@
 • On the next page, it displays the respective Margarita cocktail image, category, ingredients, recipe instructions and the youtube link.<h4>
   <br>
 <img src="images/homePage.PNG">
-  <br>
+  <br><br>
 <img src = "images/2ndPage.PNG">
