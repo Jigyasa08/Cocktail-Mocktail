@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <link rel="stylesheet" href="masai-sprint-3.css"> 
+   <link rel="stylesheet" href="index.css"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="header">
-        <img class="logo"
-            src="https://dcassetcdn.com/design_img/3539801/678720/678720_19402994_3539801_d84a20b0_image.jpg"></img>
+        <!-- <img class="logo"
+            src="https://dcassetcdn.com/design_img/3539801/678720/678720_19402994_3539801_d84a20b0_image.jpg"></img> -->
 
         <div class="menu-bar flex-box">
             <div><a href="#">HOME</a>
@@ -56,7 +56,7 @@
                     </ul>
                 </div>
             </div>
-        </div> -->
+        </div> 
 
         <div class="search">
             <input type="text" class="search-box" id="searchCocktail" placeholder=" 🔎 Search Any Drink">
@@ -76,15 +76,19 @@
     </div>
 
     <div class="ToShow">
-        <h1 class="h1-color"><span class="span">Welcome to</span> Cocktail Mocktail</h1>
-        <h1>We have a wide variety of cocktails &amp; Mocktails from around the world</h1>
+        <h2 class="h1-color"><span class="span">Welcome to</span> Cocktail Mocktail</h2>
+        <h3>We have a wide variety of cocktails &amp; Mocktails from around the world</h3>
         <p>A party's not a party without cocktails. Search through our extensive selection of sophisticated and
             refreshing cocktails and mocktails; from Mojitos to Margaritas and everything else in between.</p>
-        <p>Discover what it takes to become a mixologist and create amazing cocktails and mocktails with these easy to
-            follow recipes. Whether you are looking for a winter warmer, long summer thirst-quencher, timeless classic,
-            rich and creamy number or a non- alcoholic mocktail, you are sure to find a cocktail to suit every occasion.
-        </p>
-        <div class="clear"></div>
+        <h3 style="color: green;text-decoration: underline;">Click on any of the below cocktails to view more info.</h3>
+        <div class="clear">
+        </div>
+        <div style="margin: auto;">
+
+            <div id="cards" style="display: grid; grid-gap: 30px;grid-template-columns: repeat(4, 1fr) 20%" >
+                
+            </div>
+        </div>
     </div>
 
     <div class="background">
@@ -137,7 +141,7 @@
             src="https://www.standard.co.uk/s3fs-public/thumbnails/image/2016/09/30/10/cocktails.jpg"></img>
     </div>
 
-    <script type="text/javascript" src="masai-sprint-3.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
