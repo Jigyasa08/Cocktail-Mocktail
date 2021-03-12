@@ -1,13 +1,26 @@
-# Masai-Sprint-3
-<h1>JS API Project<h1>
-<h4>This page shows a basic website related to Cocktails - Margarita.
+# Cocktail-Mocktail
 
-• It has a search input & a button which takes the drink name, fetches the details from the link with API, matches with the input and displays the result in next page. 
+A small website where we can find details of different cocktails from all over the world.
 
-• Search: It searches the given cocktail name & takes the user to respective html file. 
+```
+# We can search any drink of our choice or click on any of the drinks listed in Home Page which routes to a new page which shows more details about the drink like it's recipe and ingredients.
 
-• On the next page, it displays the respective Margarita cocktail image, category, ingredients, recipe instructions and the youtube link.<h4>
-  <br>
-<img src="images/homePage.PNG">
-  <br><br>
-<img src = "images/2ndPage.PNG">
+# Screenshots
+
+# Home Page
+![homePage](images/homePage.PNG)
+
+# Drink Cards
+![cardsPage](images/cardsPage.PNG)
+
+# Drink Details Page
+![2ndPage](images/2ndPage.PNG)
+
+
+# Tech Stacks Used
+
+* HTML5
+* CSS
+* Javascript
+
+```
