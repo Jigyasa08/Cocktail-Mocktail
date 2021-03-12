@@ -1,13 +1,9 @@
 window.addEventListener("load", function () {
-  let btn = document.getElementById("findit");
-  btn.addEventListener("click", searchDrink);
-});
-
-window.addEventListener("load", function () {
+  var query = localStorage.getItem("query");
   var xhr = new XMLHttpRequest();
   xhr.open(
     "GET",
-    "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=ita"
+    `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${query}`
   );
   xhr.send();
   xhr.onload = function () {
@@ -48,37 +44,4 @@ const createCard = (data) => {
 
 function routePage() {
   location.href = "cocktailPage.html";
-}
-
-const displayCard = (drink) => {
-  console.log(drink);
-};
-
-function searchDrink() {
-  var query = document.getElementById("searchCocktail").value;
-  localStorage.setItem("query", JSON.stringify(query));
-
-  location.href = "searchList.html";
-  // switch (data) {
-  //   case "Margarita":
-  //     location.href = "newpage_1.html";
-  //     break;
-  //   case "Blue Margarita":
-  //     location.href = "newpage_2.html";
-  //     break;
-  //   case "Tommy's Margarita":
-  //     location.href = "newpage_3.html";
-  //     break;
-  //   case "Whitecap Margarita":
-  //     location.href = "newpage_4.html";
-  //     break;
-  //   case "Strawberry Margarita":
-  //     location.href = "newpage_5.html";
-  //     break;
-  //   case "Smashed Watermelon Margarita":
-  //     location.href = "newpage_6.html";
-  //     break;
-  //   default:
-  //     alert("No drinks found");
-  // }
 }

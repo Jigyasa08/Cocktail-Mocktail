@@ -43,12 +43,12 @@ a {
 .sub-menu {
   display: none;
 }
-/* .menu-bar a:hover > .sub-menu > ul > li{
-    display: block;
-    position: absolute;
-    background: rgb(0, 100, 0);
-    margin-top: 15px;
-    margin-left: -15px;
+/* .menu-bar a:hover > .sub-menu > ul > li {
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
 } */
 .search {
   float: left;
@@ -63,12 +63,13 @@ a {
 }
 #findit {
   position: fixed;
-  margin-left: 20px;
-  border-radius: 20%;
-  height: 50px;
+  margin-left: 30px;
+  /* border-radius: 20%; */
+  height: 40px;
   width: 80px;
   background-color: rgba(0, 0, 0, 0.384);
   color: blanchedalmond;
+  font-weight: 600;
 }
 .search-box {
   border: none;
