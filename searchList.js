@@ -1,9 +1,11 @@
 window.addEventListener("load", function () {
   var query = localStorage.getItem("query");
+  var q = JSON.parse(query);
+  console.log(query);
   var xhr = new XMLHttpRequest();
   xhr.open(
     "GET",
-    `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${query}`
+    `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${q}`
   );
   xhr.send();
   xhr.onload = function () {
