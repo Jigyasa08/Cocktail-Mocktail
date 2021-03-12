@@ -1,0 +1,65 @@
+body {
+  font-family: Lusitana, Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  color: #c02f1d;
+  width: auto;
+}
+.text {
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  /* margin: 50px; */
+}
+/* .background {
+    background-image: url(http://www.cocktailmocktail.co.uk/images/white-brick-background.jpg);
+  } */
+.header {
+  height: 150px;
+  width: 100%;
+  /* position: fixed; */
+  background-color: rgba(0, 0, 0, 0.233);
+}
+.background {
+  width: 100%;
+  height: 150px;
+  background-image: url(http://www.cocktailmocktail.co.uk/images/main-image.jpg);
+}
+.logo {
+  float: left;
+  height: 150px;
+  width: 150px;
+}
+.menu-bar {
+  float: left;
+  margin-left: 100px;
+  width: 700px;
+  height: 45px;
+  margin-top: 45px;
+}
+.flex-box {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.menu-bar div {
+  font-weight: bold;
+  margin: 10px 0px 10px 20px;
+  padding: 0px;
+}
+.menu-bar a:hover {
+  color: red;
+}
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+.sub-menu {
+  display: none;
+}
+/* .menu-bar a:hover > .sub-menu > ul > li {
+      display: block;
+      position: absolute;
+      background: rgb(0, 100, 0);
+      margin-top: 15px;
+      margin-left: -15px;
+    } */
