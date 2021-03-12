@@ -1,4 +1,4 @@
-# Masai-Sprint-3
+# Cocktail Mocktail
 <h1>JS API Project<h1>
 <h4>This page shows a basic website related to Cocktails - Margarita.
 
