@@ -1,19 +1,19 @@
 # Cocktail-Mocktail
 
-A small website where we can find details of different cocktails from all over the world.
+A small website where we can find details of different cocktails & mocktails from all over the world.
 
 
-# We can search any drink of our choice or click on any of the drinks listed in Home Page which routes to a new page which shows more details about the drink like it's recipe and ingredients.
+Users can search any drinks of his/her choice or click on any of the drinks listed in the Home Page which redirects to a new page where they can find more details about the drink like it's recipe and ingredients.
 
 # Screenshots
 
 # Home Page
 ![homePage](images/homePage.PNG)
 
-# Drink Cards
+# Lists of Drinks
 ![cardsPage](images/cardsPage.png)
 
-# Drink Details Page
+# Drink's Details
 ![2ndPage](images/2ndPage.PNG)
 
 
